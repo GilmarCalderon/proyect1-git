@@ -22,7 +22,7 @@ class _MyHomePageState extends State<MyHomePage> {
           children: [
             IconButton(
               icon: const Icon(Icons.volume_up),
-              tooltip: 'Increase volume by 10',
+              tooltip: 'Increase volume by 11',
               onPressed: () {
                 setState(() {
                   _volume += 10;
